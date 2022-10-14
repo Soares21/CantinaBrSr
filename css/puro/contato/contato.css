@@ -1,0 +1,264 @@
+/*
+    FONTES
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/*
+    ESTRUTURA
+*/
+
+.div-titulo-contatos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-titulo-contatos h1{
+    font-size: 3em;
+    color: black;
+    letter-spacing: 2px;
+    font-family: Bebas neue, sans-serif;
+    cursor: default;
+}
+
+.section-contatos{
+    width: 100%;
+    height: 900px;
+}
+
+.section-div-forms{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-form-contato{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+
+    border-right: 1px solid rgba(0, 0, 0, 0.297);
+    border-radius: 500px;
+}
+
+.section-form-feedback{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 15px;
+
+    border-left: 1px solid rgba(0, 0, 0, 0.349);
+    border-radius: 500px;
+}
+
+/*
+    DESIGN 1
+*/
+
+.section-form-contato input{
+    font-size: 1.5em;
+    color: black;
+    font-family: Poppins;
+    font-weight: 800;
+    outline: none;
+    transition: .5s ease;
+    border: 1px solid #000000;
+}
+
+.section-form-contato input:focus{
+    transition: .5s ease;
+    border: 1px solid #8A343F;
+    box-shadow: 0px 0px 6px 1px #3a1419;
+}
+
+.section-form-contato input::placeholder{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Abel, sans-serif;
+}
+
+.section-form-contato input::-webkit-outer-spin-button,
+.section-form-contato input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.section-form-contato textarea{
+    width: 270px;
+    height: 200px;
+    color: black;
+    font-family: Poppins;
+    font-weight: 800;
+    outline: none;
+    transition: .5s ease;
+    border: 1px solid #000000;
+}
+
+.section-form-contato textarea::placeholder{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Abel, sans-serif;
+    text-align: center;
+}
+
+.section-form-contato textarea:focus{
+    transition: .5s ease;
+    border: 1px solid #8A343F;
+    box-shadow: 0px 0px 6px 1px #3a1419;
+  }
+
+.section-form-contato button{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 10px 5px 10px;
+    transition: .5s ease;
+    border: 1px solid #3a1419;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 230px;
+}
+
+.section-form-contato button:hover{
+    transition: .5s ease;
+    background-color: #3a1419;
+    border: 1px solid white;
+    color: white;
+
+}
+
+/*
+    DESIGN 2
+*/
+
+.section-form-feedback input{
+    font-size: 1.5em;
+    color: black;
+    font-family: Poppins;
+    font-weight: 800;
+    outline: none;
+    transition: .5s ease;
+    border: 1px solid #000000;
+}
+
+.section-form-feedback input:focus{
+    transition: .5s ease;
+    border: 1px solid #8A343F;
+    box-shadow: 0px 0px 6px 1px #3a1419;
+}
+
+.section-form-feedback input::placeholder{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Abel, sans-serif;
+}
+
+.section-form-feedback input::-webkit-outer-spin-button,
+.section-form-feedback input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+.section-form-feedback textarea{
+    width: 270px;
+    height: 200px;
+    color: black;
+    font-family: Poppins;
+    font-weight: 800;
+    outline: none;
+    transition: .5s ease;
+    border: 1px solid #000000;
+}
+
+.section-form-feedback textarea::placeholder{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Abel, sans-serif;
+    text-align: center;
+}
+
+.section-form-feedback textarea:focus{
+    transition: .5s ease;
+    border: 1px solid #8A343F;
+    box-shadow: 0px 0px 6px 1px #3a1419;
+  }
+
+.section-form-feedback button{
+    font-size: 1.5em;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 10px 5px 10px;
+    transition: .5s ease;
+    border: 1px solid #3a1419;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 230px;
+}
+
+.section-form-feedback button:hover{
+    transition: .5s ease;
+    background-color: #3a1419;
+    border: 1px solid white;
+    color: white;
+
+}
+
+@media (max-width: 690px) {
+    .section-contatos{
+        height: 1200px;
+    }
+    .section-div-forms{
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 25px;
+    }
+    .section-form-contato{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+    }
+    
+    .section-form-feedback{
+        border-top: 1px solid rgba(0, 0, 0, 0.349);
+    }
+    
+}
+
+@media (max-width: 520px) {
+    .section-form-contato{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.297);
+        border-radius: 0;
+    }
+    
+    .section-form-feedback{
+        border-top: 0px solid rgba(0, 0, 0, 0.349);
+        border-radius: 0;
+    }
+    
+}

@@ -1,0 +1,214 @@
+@media (min-width: 601px) {
+  header nav a::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(255, 77, 77);
+    top: 30px;
+    transition: ease 0.5s;
+  }
+
+  .header-nav-type-1:hover::before {
+    content: "";
+    transition: ease 0.5s;
+    width: 100px;
+  }
+
+  .header-nav-type-2:hover::before {
+    content: "";
+    transition: ease 0.5s;
+    width: 60px;
+  }
+
+  .header-nav-type-3:hover::before {
+    content: "";
+    transition: ease 0.5s;
+    width: 75px;
+  }
+
+  .header-nav-type-4:hover::before {
+    content: "";
+    transition: ease 0.5s;
+    width: 110px;
+  }
+
+  .section-one-div-logo h2::after {
+    content: "CANTINA BRSR";
+    transition: 0.5s ease;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 50%;
+    color: rgba(251, 147, 147, 0.764);
+  }
+
+  .section-one-div-logo h2:hover::after {
+    content: "CANTINA BRSR";
+    transition: 0.5s ease;
+    width: 100%;
+    top: 30px;
+    left: 50px;
+    position: absolute;
+    opacity: 50%;
+    color: rgba(251, 147, 147, 0.764);
+  }
+  .header-div-botao a::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    padding-top: 50px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      transparent,
+      rgba(255, 117, 117, 0.694),
+      transparent,
+      transparent
+    );
+    left: -100px;
+    top: 0px;
+    bottom: 0.5px;
+    transition: 1s ease;
+  }
+
+  .header-div-botao a:hover::before {
+    transition: 1s ease;
+    content: "";
+    left: 210px;
+  }
+
+  .section-two-div-titulo::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 77, 77);
+    bottom: 10px;
+    transition: ease 0.5s;
+  }
+
+  .section-two-div-titulo:hover::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 77, 77);
+    bottom: 10px;
+    transition: ease 0.5s;
+  }
+
+  .section-one-div-logo h2::before {
+    content: "CANTINA BRSR";
+    transition: 0.5s ease;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    opacity: 50%;
+    color: rgba(251, 147, 147, 0.764);
+  }
+
+  .section-one-div-logo h2:hover::before {
+    content: "CANTINA BRSR";
+    transition: 0.5s ease;
+    width: 100%;
+    bottom: 30px;
+    left: -50px;
+    position: absolute;
+    opacity: 50%;
+    color: rgba(251, 147, 147, 0.764);
+  }
+
+  .section-two-div-titulo::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background-color: rgb(255, 77, 77);
+    top: 10px;
+    transition: ease 0.5s;
+  }
+
+  .section-two-div-titulo:hover::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: rgb(255, 77, 77);
+    top: 10px;
+    transition: ease 0.5s;
+  }
+}
+
+@media (max-height: 920px) {
+    .header {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 60%;
+        width: 100%;
+    
+        row-gap: 5%;
+      } 
+}
+
+@media (max-height: 960px) {
+    .nav-button-scroll a {
+        top: 850px;
+      }
+}
+
+@media (max-height: 910px) {
+    .nav-button-scroll a {
+        top: 800px;
+      }
+}
+
+@media (max-height: 960px) {
+    .nav-button-scroll a {
+        top: 780px;
+      }
+}
+
+@media (max-height: 850px) {
+    .nav-button-scroll a {
+        top: 740px;
+      }
+}
+
+@media (max-height: 820px) {
+    .nav-button-scroll a {
+        top: 700px;
+      }
+}
+
+@media (max-height: 760px) {
+    .nav-button-scroll a {
+        top: 670px;
+      }
+}
+
+@media (max-height: 730px) {
+    .nav-button-scroll a {
+        top: 560px;
+      }
+}
+@media (max-height: 630px) {
+    .nav-button-scroll a {
+        top: 500px;
+      }
+}
+
+@media (max-height: 570px) {
+    .nav-button-scroll a {
+        top: 400px;
+      }
+}
+
+@media (max-height: 460px) {
+    .nav-button-scroll a {
+        top: 250px;
+      }
+}

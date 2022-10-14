@@ -1,0 +1,91 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 8%;
+    width: 100%;
+  
+    background-color: white;
+    backdrop-filter: blur(10px);
+  
+    transition: ease 1s;
+  
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.331);
+  
+    z-index: 1;
+  }
+  
+  header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  header nav a {
+    color: black;
+    font-size: 1.7em;
+    font-family: "Abel", sans-serif;
+  }
+  
+  header nav a {
+    transition: ease 0.5s;
+    position: relative;
+  }
+  
+  header nav a:hover {
+    color: rgb(255, 77, 77);
+    transition: ease 0.5s;
+  }
+  
+  
+  
+  header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10%;
+  }
+  
+  header div a {
+    color: black;
+    font-size: 3em;
+    font-family: "Bebas Neue", cursive;
+    cursor: pointer;
+    transition: ease 0.5s;
+  }
+  
+  header div a:hover {
+    color: rgb(255, 77, 77);
+    transition: ease 0.5s;
+    transform: scale(1.1);
+  }
+
+
+  
+  .header-div-botao a {
+    border: 0.5px solid black;
+    cursor: pointer;
+    font-size: 2.5em;
+    border-radius: 8px;
+    transition: ease 1s;
+    font-family: "Bebas Neue", cursive;
+    letter-spacing: 3px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .header-div-botao a:hover {
+    transition: ease 1.3s;
+    background-color: rgb(240, 150, 150);
+    box-shadow: 0px 0px 2px 1px rgb(244, 92, 92);
+  }
+
+  @media (max-width: 600px) {
+    .header{
+      flex-direction: column;
+    }
+  }
+  
+  

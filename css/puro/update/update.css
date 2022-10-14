@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+
+.section-fazer-cadastro-section{
+  width: 100%;
+  height: 800px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  margin-bottom: 150px;
+}
+
+.section-fazer-cadastro-div{
+  padding: 30px;
+
+}
+
+.section-fazer-cadastro-div-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  background-color: #1c1c1c;
+  padding: 100px 50px;
+  box-shadow: 0px 0px 10px 3px rgb(65, 12, 12);
+  border: 1px solid rgb(65, 12, 12);
+}
+
+.section-fazer-cadastro-section-h1{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-fazer-cadastro-div h1{
+  font-family: 'Oswald', sans-serif;
+  color: #8A343F;
+  font-size: 3em;
+  font-weight: 800;
+  cursor: default;
+}
+
+.section-fazer-cadastro-div-form input{
+  width: 400px;
+  height: 50px;
+  font-size: 1.5em;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: .5px solid white;
+  border-radius: 8px;
+  padding: 5px 10px;
+  transition: .5s ease;
+}
+
+.section-fazer-cadastro-div-form input:focus{
+  transition: .5s ease;
+  border: 1px solid #8A343F;;
+}
+
+.section-fazer-cadastro-div-form button{
+  font-size: 3em;
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  padding: 0px 8px 5px 8px;
+  transition: .5s ease;
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.section-fazer-cadastro-div-form button:hover{
+  transition: .5s ease;
+  transform: translateX(5px);
+  border: 1px solid #8A343F;
+}
+
+.section-fazer-cadastro-div-form input::placeholder{
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+.section-fazer-cadastro-div-form a{
+    font-size: 1.5em;
+    color: #8A343F;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+.section-fazer-cadastro-section img{
+    width: 700px;
+    height: 700px;
+}
+
+.section-fazer-cadastro-div-form div{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-content: center;
+    column-gap: 30px;
+}
+
+
+
+.footer {
+  width: 100vw;
+  height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #1c1c1c;
+}
+
+.footer-area {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10%;
+}
+
+.footer-div-titulo {
+  width: 100%;
+  height: 30%;
+
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-div-titulo h2 {
+  text-transform: uppercase;
+  font-family: "Abel", sans-serif;
+  color: rgb(255, 77, 77);
+  cursor: default;
+}
+
+.footer-div-texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+
+.footer-div-texto p {
+  font-size: 2em;
+  font-family: "Abel", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+  cursor: default;
+}
+
+.footer-subdiv-a {
+  color: rgb(255, 77, 77);
+}
+
+@media (max-width: 1300px) {
+    .section-fazer-cadastro-section img{
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .section-fazer-cadastro-section{
+        height: 1200px;
+      
+      }
+    .section-fazer-cadastro-div-form{
+        order: 1;
+      }
+
+      .section-fazer-cadastro-section img{
+        order: 2;
+    }
+}
+@media (max-width: 600px) {
+    .section-fazer-cadastro-section img{
+      width: 300px;
+      height: 300px;
+    }
+  
+    .section-fazer-cadastro-div-form input{
+      width: 350px;
+      height: 40px;
+      font-size: 1em;
+      padding: 3px 7px;
+    }
+  
+    .section-fazer-cadastro-section{
+      align-content: flex-start;
+    }
+  
+    .section-fazer-cadastro-section{
+      height: 1000px;
+    }
+  }
+
+@media (max-width: 380px) {
+    .section-fazer-cadastro-div h1{
+      font-size: 2.3em;
+    }
+  
+    .section-fazer-cadastro-section img{
+        margin-top: 25px;
+      width: 300px;
+      height: 300px;
+    }
+  
+    .section-fazer-cadastro-div-form input{
+      width: 300px;
+      height: 40px;
+      font-size: 1em;
+      padding: 3px 7px;
+    }
+  
+    .section-fazer-cadastro-section{
+      align-content: flex-start;
+    }
+  
+    .section-fazer-cadastro-section{
+      width: 100%;
+      height: 1000px;
+    }
+  
+    .section-fazer-cadastro-div{
+      padding: 0px;
+  
+    
+    }
+  }
