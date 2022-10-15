@@ -1,5 +1,6 @@
 <?php 
-    require("./conexao.php")
+    require("./conexao.php");
+    require("./components/header.php");
 ?>
 
 <head>
@@ -83,16 +84,8 @@
     </div>
 </section>
 
-<footer class="footer">
-    <div class="footer-area">
-    <div class="footer-div-titulo">
-        <h2 class="footer-div-h2">Cantina BRSR</h2>
-    </div>
-    <div class="footer-div-texto">
-        <div class="footer-subdiv-texto">
-        <p class="footer-subdiv-span">© Localização</p>
-            <a href="#" class="footer-subdiv-a">Itapetininga-SP, Brasil</a>
-        </div>
-    </div>
-    </div>
-</footer>
+<section class="sec-img-maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.3142055043554!2d-48.01867627960446!3d-23.59306182604345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c5cbf41ebfcf31%3A0xa65e4fb6d75446bf!2sInstituto%20Federal%20de%20Educa%C3%A7%C3%A3o%2C%20Ci%C3%AAncia%20e%20Tecnologia%20de%20S%C3%A3o%20Paulo%2C%20Campus%20Itapetininga!5e0!3m2!1spt-BR!2sbr!4v1665789457079!5m2!1spt-BR!2sbr" width="800px" height="300px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<?php require("./components/footer.php"); ?>

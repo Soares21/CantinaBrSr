@@ -1,5 +1,6 @@
 <?Php
 require("conexao.php");
+require("./components/header.php");
 ?>
 
 <?php

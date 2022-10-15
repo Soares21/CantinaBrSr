@@ -1,5 +1,6 @@
 <?php 
 Require("conexao.php");
+require("./components/header.php");
 ?>
 <?php 
 $sql="SELECT*FROM produto ";

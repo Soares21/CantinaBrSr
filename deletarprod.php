@@ -1,5 +1,6 @@
 <?php
 require("conexao.php");
+require("./components/header.php");
 $id=$_GET['id'];
 $sql="DELETE FROM produto WHERE idproduto=$id";
 $resultado=mysqli_query($conexao,$sql);
@@ -61,3 +62,4 @@ if($resultado){
     </div>
 ";
 }
+

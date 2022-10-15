@@ -1,5 +1,6 @@
 <?php 
 Require("conexao.php");
+require("./components/header.php");
 $nomeprod=$_POST['Nomeprod'];
 $Vlr=$_POST['vlr'];
 $desc=$_POST['desc'];

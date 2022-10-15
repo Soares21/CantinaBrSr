@@ -1,5 +1,6 @@
 <?php
 Require("conexao.php");
+require("./components/header.php");
 $id=$_GET["id"];
 $sql="SELECT*FROM produto WHERE idproduto=$id ";
 $resultado=mysqli_query($conexao,$sql);

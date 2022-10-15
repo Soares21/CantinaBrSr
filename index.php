@@ -1,5 +1,6 @@
 <?php 
 require("conexao.php");
+require("./components/header.php");
 ?>
 
 
@@ -20,7 +21,7 @@ require("conexao.php");
     <link rel="stylesheet" href="./css/puro/index/principal.css">
     <link rel="stylesheet" href="./css/puro/index/user_produtos.css">
     <link rel="stylesheet" href="./css/puro/index/grid_produtos.css">
-    <link rel="stylesheet" href="./css/puro/footer/footer.css">
+
     
 
   </head>
@@ -181,18 +182,6 @@ while($registro=mysqli_fetch_assoc($resultado)):
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer-area">
-        <div class="footer-div-titulo">
-          <h2 class="footer-div-h2">Cantina BRSR</h2>
-        </div>
-        <div class="footer-div-texto">
-          <div class="footer-subdiv-texto">
-            <p class="footer-subdiv-span">© Localização</p>
-              <a href="#" class="footer-subdiv-a">Itapetininga-SP, Brasil</a>
-          </div>
-        </div>
-      </div>
-    </footer>
+    <?php require("./components/footer.php"); ?>
   </body>
 </html>
